@@ -60,7 +60,7 @@ function ViewDeck() {
               Edit
             </Link>
             <Link
-              to={`decks/${deck.id}/study`}
+              to={`${url}/study`}
               className="btn btn-primary mr-2"
             >
               Study

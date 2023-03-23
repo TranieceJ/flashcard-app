@@ -67,7 +67,7 @@ function Study() {
           </ol>
         </nav>
 
-        <h1>{deck.name} :Study</h1>
+        <h1>{deck.name} Study</h1>
         <h2>Not enough cards.</h2>
         <p>
           "You need at least 3 cards to study. There are {deck.cards.length}{" "}

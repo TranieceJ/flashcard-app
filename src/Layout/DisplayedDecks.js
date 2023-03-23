@@ -20,7 +20,7 @@ function DisplayedDecks() {
       // update state of the deck that was deleted
       // load the deck w/o the deleted deck
 
-      deleteDeck(deckId).then(loadDecks);
+      deleteDeck(deckId).then(loadDecks).then(history.push("/"));
     }
   }
 
